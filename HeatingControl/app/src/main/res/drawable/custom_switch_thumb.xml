@@ -1,0 +1,5 @@
+<!-- res/drawable/custom_switch_thumb.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/thumb_manual" android:state_checked="false" />
+    <item android:drawable="@drawable/thumb_automatic" android:state_checked="true" />
+</selector>
