@@ -1,0 +1,6 @@
+<!-- res/drawable/track_automatic.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#BDBDBD" /> <!-- Set track color for automatic mode -->
+    <corners android:radius="20dp" /> <!-- Set rounded corners if desired -->
+    <size android:height="40dp" /> <!-- Set track height -->
+</shape>
