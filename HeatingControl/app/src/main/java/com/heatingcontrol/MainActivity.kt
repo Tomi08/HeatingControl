@@ -65,9 +65,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var roomTemperatureTextView: TextView
     private lateinit var roomRefTempTextView: TextView
     private lateinit var roomHumidityTextView: TextView
-    private val serverUrl = "http://stayconnected.freedynamicdns.net:8083"
-
-    //    private val serverUrl = "http://192.168.1.1:8083"
+    //private val serverUrl = "http://stayconnected.freedynamicdns.net:8083"
+    private val serverUrl = "http://192.168.1.1:8083"
     private var modeStatus = true
     private var sourceStatus = true
 

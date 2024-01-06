@@ -24,13 +24,13 @@ const unsigned long DHT11_READ_INTERVAL = 2000;
 
 
 //Web Server
-const char* ssid = "TP-Link_IT";  // Enter SSID here
-const char* password = "tamas123";  //Enter Password here
-/*
+const char* ssid = "TP-Link_IT2";  // Enter SSID here
+const char* password = "jelszo123";  //Enter Password here
+
 IPAddress local_ip(192,168,1,1);
 IPAddress gateway(192,168,1,1);
 IPAddress subnet(255,255,255,0);
-*/
+/**/
 WebServer server(8083);
 
 uint8_t transistorPin = 12;
@@ -61,7 +61,7 @@ void setup() {
 
   Serial.println("Connecting to ");
   Serial.println(ssid);
-
+/*
   //connect to your local wi-fi network
   WiFi.begin(ssid, password);
 
@@ -73,12 +73,12 @@ void setup() {
   Serial.println("");
   Serial.println("WiFi connected..!");
   Serial.print("Got IP: ");  Serial.println(WiFi.localIP());
-  /**/
-  /*
+  */
+  
   WiFi.softAP(ssid, password);
   WiFi.softAPConfig(local_ip, gateway, subnet);
   delay(100);
-  */
+  /**/
   
   server.on("/", handle_OnConnect);
   server.on("/led1on", handle_LedOn);
