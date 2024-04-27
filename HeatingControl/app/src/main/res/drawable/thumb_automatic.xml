@@ -1,0 +1,6 @@
+<!-- res/drawable/thumb_automatic.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#4CAF50" /> <!-- Set thumb color for automatic mode -->
+    <corners android:radius="14dp" /> <!-- Set rounded corners if desired -->
+    <size android:width="40dp" android:height="40dp" /> <!-- Set thumb size -->
+</shape>

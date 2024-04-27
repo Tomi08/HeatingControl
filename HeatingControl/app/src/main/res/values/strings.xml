@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HeatingControl</string>
+    <string name="led_switch_name">Led Control</string>
+    <string name="switch_operating_mode">Mode: A/M</string>
+    <string name="switch_source_mode">Source: R/A</string>
+    <string name="switch_temperature_control">Heating Control</string>
+    <string name="button_submit">Submit</string>
+    <string name="temperature_input">Enter temperature</string>
+    <string name="phonetemperaturetextview">phoneTemperatureTextView</string>
+    <string name="esptemperaturetextview">espTemperatureTextView</string>
+    <string name="espreftemptextview">espRefTempTextView</string>
+    <string name="esphumiditytextview">espHumidityTextView</string>
+    <string name="backgroundimage">backgroundImage</string>
+</resources>
